@@ -1,0 +1,8 @@
+19:13:02,870 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI, universal_newlines=False, shell=None, istream=None)
+19:13:02,882 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI/parlai_internal, universal_newlines=False, shell=None, istream=None)
+19:13:04,697 urllib3.connectionpool DEBUG Starting new HTTP connection (1): parl.ai:80
+19:13:04,937 urllib3.connectionpool DEBUG http://parl.ai:80 "GET /downloads/_models/convai2/convai2_self_seq2seq_model.tgz HTTP/1.1" 301 183
+19:13:04,942 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): parl.ai:443
+19:13:06,29 urllib3.connectionpool DEBUG https://parl.ai:443 "GET /downloads/_models/convai2/convai2_self_seq2seq_model.tgz HTTP/1.1" 302 0
+19:13:06,544 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+19:13:07,973 urllib3.connectionpool DEBUG https://dl.fbaipublicfiles.com:443 "GET /parlai/_models/convai2/convai2_self_seq2seq_model.tgz HTTP/1.1" 200 299972927

@@ -1,0 +1,12 @@
+[
+	{"id": "WizardDialogKnowledgeTeacher",
+	"text": "What is the exact on-road price of MG Hector Plus?", 
+	"labels": ["The on-road price of Hector Plus in Delhi starts at Rs. 15,71,961. The on-road price is inclusive of RTO charges and insurance."],
+	"Achosen_topic": "MG Hector Plus", 
+	"episode_done": "False",
+	"label_candidates": [],
+	"knowledge": "Latest Update: MG has launched the Hector Plus in India. Read more about it here. MG Hector Plus Price: The Hector Plus has an introductory price range of Rs 13.49 lakh to Rs 18.54 lakh (ex-showroom). However, these will be increased by upto Rs 50,000 per variant after August 13. MG Hector Plus Variants: It is available in four variants: Style, Super, Smart and Sharp. MG Hector Plus Seating Capacity: MG offers the Hector Plus in a 6-seater layout with captain seats in the middle row. MG Hector Plus Powertrains: The Hector Plus is powered by both petrol and diesel engines. It gets a 1.5-litre turbo-petrol engine (143PS/250Nm) coupled with a 6-speed dual-clutch automatic. MG also offers the turbo-petrol unit featuring a 48V mild-hybrid system paired to a 6-speed manual gearbox limited to the top-spec Sharp variant. The 2.0-litre diesel engine is rated at 170PS/350Nm and comes mated to a 6-speed manual gearbox. It is the common engine option across all variants. MG Hector Plus Features: MG offers the SUV with a panoramic sunroof, rain-sensing wipers, a powered tailgate, and 8-colour ambient lighting in its top-spec. It also gets auto-LED headlamps with DRLs, front and rear LED fog lamps and LED tail lamps, and electric parking brake (DCT variant only). The Hector Plus offers the 10.4-inch touchscreen infotainment system with Android Auto and Apple CarPlay as standard. MG Hector Plus Safety: Safety features include electronic stability program (ESP), front and rear parking sensors, hill hold control, ISOFIX child seat anchors, ABS with EBD and brake assist, dual front airbags, and traction control as standard. It gets up to six airbags in the top-spec variant. MG Hector Plus Rivals: It takes on the likes of the Tata Gravitas, Toyota Innova Crysta and Mahindra XUV500 2020. The Hector Plus will also rival a Ford SUV based on the new XUV500.", 
+	"title": "MG Hector Plus", 
+	"checked_sentence": "MG Hector Plus Price: The Hector Plus has an introductory price range of Rs 13.49 lakh to Rs 18.54 lakh (ex-showroom). However, these will be increased by upto Rs 50,000 per variant after August 13."
+	}
+]

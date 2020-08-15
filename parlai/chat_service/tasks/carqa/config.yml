@@ -1,0 +1,22 @@
+tasks:
+  default:
+    onboard_world: CarBotChatOnboardWorld
+    task_world: CarBotChatTaskWorld
+    timeout: 1800
+    agents_required: 1
+task_name: chatbot
+world_module: parlai.chat_service.tasks.carqa.worlds
+overworld: CarOverworld
+max_workers: 30
+opt:
+  debug: True
+  models:
+    tfidf_retriever:
+      model: tfidf_retriever
+      model_file: /Volumes/Data/ParlAI/from_pretrained_wiki/wikiqa_tdifd
+      override:
+        model: tfidf_retriever
+        no_cuda: True
+      no_cuda: True
+additional_args:
+  page_id: 1 # Configure Your Own Page

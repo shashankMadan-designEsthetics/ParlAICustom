@@ -1,0 +1,2 @@
+20:09:15,531 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI, universal_newlines=False, shell=None, istream=None)
+20:09:15,541 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI/parlai_internal, universal_newlines=False, shell=None, istream=None)

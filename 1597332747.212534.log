@@ -1,0 +1,44 @@
+21:02:27,412 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI, universal_newlines=False, shell=None, istream=None)
+21:02:27,440 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI/parlai_internal, universal_newlines=False, shell=None, istream=None)
+21:02:35,325 tornado.access INFO 101 GET /websocket (::1) 1.65ms
+21:02:35,325 root INFO Opened new socket from ip: ::1
+21:02:35,325 root INFO Current subscribers: {'1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1': <parlai.chat_service.services.websocket.sockets.MessageSocketHandler object at 0x1a2c6abe80>}
+21:02:50,319 root INFO websocket message from client: {"text": "Hello"}
+21:02:50,330 root INFO Sending new message: {'id': 'Overworld', 'text': 'Welcome to the overworld for the ParlAI Car chatbot demo. Please type "begin" to start.', 'quick_replies': ['begin']}
+21:02:52,638 root INFO websocket message from client: {"text": "Hello"}
+21:02:52,639 root INFO Received new message: {'text': 'Hello', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:02:52,838 root INFO Sending new message: {'id': 'Overworld', 'text': 'Invalid option. Please type "begin".', 'quick_replies': ['begin']}
+21:02:58,902 root INFO websocket message from client: {"text": "begin"}
+21:02:58,902 root INFO Received new message: {'text': 'begin', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:02:59,839 root INFO Sending new message: {'id': 'World', 'text': 'Welcome to the ParlAI Chatbot demo. You are now paired with a bot - feel free to send a message.Type [DONE] to finish the chat.'}
+21:03:07,914 root INFO websocket message from client: {"text": "Hello"}
+21:03:07,914 root INFO Received new message: {'text': 'Hello', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:03:08,2 root INFO Sending new message: {'id': '', 'text': 'What are you really thinking?'}
+21:03:16,245 root INFO websocket message from client: {"text": "apple"}
+21:03:16,245 root INFO Received new message: {'text': 'apple', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:03:16,503 root INFO Sending new message: {'id': '', 'text_candidates': [', Apple has 405 stores worldwide, with global sales of billion in merchandise in 2011, and they lead the United States retail market in terms of sales per unit area .', 'The company was founded on April 1, 1976, and incorporated as Apple Computer, Inc. on January 3, 1977.'], 'candidate_scores': array([16.57004615, 16.57004615]), 'text': ', Apple has 405 stores worldwide, with global sales of billion in merchandise in 2011, and they lead the United States retail market in terms of sales per unit area .'}
+21:03:26,701 root INFO websocket message from client: {"text": "who founded apple?"}
+21:03:26,701 root INFO Received new message: {'text': 'who founded apple?', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:03:26,806 root INFO Sending new message: {'id': '', 'text_candidates': ['The company was founded on April 1, 1976, and incorporated as Apple Computer, Inc. on January 3, 1977.', ', Apple has 405 stores worldwide, with global sales of billion in merchandise in 2011, and they lead the United States retail market in terms of sales per unit area .', 'The company was founded by Sam Walton in 1962, incorporated on October 31, 1969, and publicly traded on the New York Stock Exchange in 1972.', 'Started as a college class project on entrepreneurship, the label was founded by Mike Mogis and Justin Oberst in 1993 (as Lumberjack Records).'], 'candidate_scores': array([31.289748  , 16.57004615, 14.71970184, 14.71970184]), 'text': 'The company was founded on April 1, 1976, and incorporated as Apple Computer, Inc. on January 3, 1977.'}
+21:15:09,860 root INFO websocket message from client: {"text": "who founded apple?"}
+21:15:09,860 root INFO Received new message: {'text': 'who founded apple?', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:15:10,51 root INFO Sending new message: {'id': '', 'text_candidates': ['The company was founded on April 1, 1976, and incorporated as Apple Computer, Inc. on January 3, 1977.', ', Apple has 405 stores worldwide, with global sales of billion in merchandise in 2011, and they lead the United States retail market in terms of sales per unit area .', 'The company was founded by Sam Walton in 1962, incorporated on October 31, 1969, and publicly traded on the New York Stock Exchange in 1972.', 'Started as a college class project on entrepreneurship, the label was founded by Mike Mogis and Justin Oberst in 1993 (as Lumberjack Records).'], 'candidate_scores': array([31.289748  , 16.57004615, 14.71970184, 14.71970184]), 'text': 'The company was founded on April 1, 1976, and incorporated as Apple Computer, Inc. on January 3, 1977.'}
+21:15:56,889 root INFO websocket message from client: {"text": "Is Dzire perfect car for family?"}
+21:15:56,889 root INFO Received new message: {'text': 'Is Dzire perfect car for family?', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:15:56,927 root INFO Sending new message: {'id': '', 'text_candidates': [' Maruti Dzire has plenty of features, refined Petrol engine with high efficiency,...Read More', 'Dzire price starts at Rs 5.89 Lakh ex-showroom and Aura price starts Rs 5.79 Lakh ex-showroom. Compare these two models on the basis of their price, features & specs.', 'Qualified medical and family reasons include: personal or family illness, family military leave, pregnancy , adoption , or the foster care placement of a child.', 'The Honda S600 is an automobile manufactured by Honda .', 'A full-size car is a marketing term used in North America for an automobile larger than a mid-size car .'], 'candidate_scores': array([96.34291513, 21.01799355, 16.57004615, 11.59533766, 11.59533766]), 'text': ' Maruti Dzire has plenty of features, refined Petrol engine with high efficiency,...Read More'}
+21:16:08,498 root INFO websocket message from client: {"text": "What is the road price of Dzire ZXi AT Plus in Bhuj, Gujarat?"}
+21:16:08,498 root INFO Received new message: {'text': 'What is the road price of Dzire ZXi AT Plus in Bhuj, Gujarat?', 'payload': None, 'sender': {'id': '1f09a0df-c36c-4a1d-95cb-fe9913bf5dc1'}, 'recipient': {'id': 0}}
+21:16:08,704 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,708 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,708 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,709 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,709 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,709 asyncio ERROR Task was destroyed but it is pending!
+task: <Task pending coro=<WebSocketProtocol13.write_message.<locals>.wrapper() running at /Users/shashank/anaconda3/lib/python3.7/site-packages/tornado/websocket.py:1102>>
+21:16:08,711 root INFO Sending new message: {'id': '', 'text_candidates': ['Maruti Suzuki Dzire ZXi Plus AT is priced at Rs.8.8 Lakh (ex-showroom Bhuj). In ...Read More', ' Dzire price starts at Rs 5.89 Lakh ex-showroom and Aura price starts Rs 5.79 Lakh ex-showroom. Compare these two models on the basis of their price, features & specs.', ' The on-road price of Roma in Delhi starts at Rs. 4,58,70,626. The on-road price is inclusive of RTO charges and insurance.', ' Maruti Dzire does not have a sunroof.', 'The CPI in the United States is defined by the Bureau of Labor Statistics as "a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services."'], 'candidate_scores': array([148.88246148,  50.9576691 ,  41.53501322,  22.83031157,
+        13.40765569]), 'text': 'Maruti Suzuki Dzire ZXi Plus AT is priced at Rs.8.8 Lakh (ex-showroom Bhuj). In ...Read More'}

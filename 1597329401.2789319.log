@@ -1,0 +1,7 @@
+20:06:41,389 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI, universal_newlines=False, shell=None, istream=None)
+20:06:41,400 git.cmd DEBUG Popen(['git', 'rev-parse', 'HEAD'], cwd=/Volumes/Data/ParlAI/parlai_internal, universal_newlines=False, shell=None, istream=None)
+20:07:47,189 tornado.access INFO 101 GET /websocket (::1) 1.00ms
+20:07:47,189 root INFO Opened new socket from ip: ::1
+20:07:47,189 root INFO Current subscribers: {'705b6692-db29-4b4f-b076-59ba0b97712c': <parlai.chat_service.services.websocket.sockets.MessageSocketHandler object at 0x1a29797da0>}
+20:07:53,420 root INFO websocket message from client: {"text": "Hello"}
+20:07:53,426 mturk ERROR World overworld-705b6692-db29-4b4f-b076-59ba0b97712c-1597329473.420599 had error AttributeError("module 'parlai.chat_service.tasks.chatbot.worlds' has no attribute 'CarOverworld'")
